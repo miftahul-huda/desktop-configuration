@@ -9,7 +9,7 @@ const UserSettingModel = require("./modules/models/usersettingmodel")
 const sequelize = new Sequelize(process.env.DBNAME, process.env.DBUSER, process.env.DBPASSWORD, {
     host: process.env.DBHOST,
     dialect: process.env.DBENGINE ,
-    logging:false
+    logging: false
 });
 
 

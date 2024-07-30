@@ -140,6 +140,9 @@ class CrudLogic {
     static async get(id)
     {
         try{
+
+            console.log("id")
+            console.log(id)
             const CurrentModel = this.getModel();
             let pkField = this.getPk();
             let where = {};

@@ -7,6 +7,7 @@ class UserSettingModel extends Model {
             theme: DataTypes.STRING,
             useThemeBackgroundWallpaper: DataTypes.INTEGER,
             backgroundWallpaper: DataTypes.STRING,
+            user: DataTypes.STRING
         }, 
         { sequelize, modelName: 'usersetting', tableName: 'usersetting', force: force });
     }

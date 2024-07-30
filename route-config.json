@@ -1,4 +1,6 @@
 [
     { "path" :  "", "router"  : "./routes/web" },
-    { "path" :  "/sample", "router"  : "./routes/sample", "logic" : "./modules/logic/sample_logic" }
+    { "path" :  "/usersetting", "router"  : "./routes/genericrouter", "logic" : "./modules/logic/usersettinglogic" },
+    { "path" :  "/theme", "router"  : "./routes/genericrouter", "logic" : "./modules/logic/themelogic" }
+
 ]
