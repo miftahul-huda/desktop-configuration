@@ -1,5 +1,5 @@
 service: desktop-configuration-api
-runtime: nodejs16
+runtime: nodejs20
 env: standard
 env_variables:
   DBHOST: "34.67.143.103"

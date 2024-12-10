@@ -105,6 +105,9 @@ app.listen(port)
 
 Initialization.initializeDatabase();
 
+console.log(process.env.DBHOST)
+console.log(process.env.DBNAME)
+
 console.log(appTitle + " server on  port : " + port)
 
 module.exports = app;

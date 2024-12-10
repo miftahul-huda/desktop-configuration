@@ -95,10 +95,11 @@ class CrudRouter {
         
         
         
-        router.get('/:id', function (req, res){
+        router.get('/:id', function (req, res, next){
 
             me.init(req, res);
             let id = req.params.id;
+            
             let logic = router.logic;
             logic.session = req.session;
             logic.get(id).then(function (os)

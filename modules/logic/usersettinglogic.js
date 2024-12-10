@@ -72,6 +72,7 @@ class UserSettingLogic extends CrudLogic {
         {
             let model = this.getModel();
             let userSetting = await model.findOne({ where: { user: id } })
+            console.log(userSetting)
             return { success: true, payload: userSetting  }
         }
         catch(e)

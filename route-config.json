@@ -1,6 +1,9 @@
 [
     { "path" :  "", "router"  : "./routes/web" },
     { "path" :  "/usersetting", "router"  : "./routes/genericrouter", "logic" : "./modules/logic/usersettinglogic" },
-    { "path" :  "/theme", "router"  : "./routes/genericrouter", "logic" : "./modules/logic/themelogic" }
+    { "path" :  "/theme", "router"  : "./routes/genericrouter", "logic" : "./modules/logic/themelogic" },
+    { "path" :  "/language", "router"  : "./routes/genericrouter", "logic" : "./modules/logic/languagelogic" },
+    { "path" :  "/langword", "router"  : "./routes/langword", "logic" : "./modules/logic/langwordlogic" }
+
 
 ]
